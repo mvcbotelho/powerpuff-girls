@@ -1,0 +1,10 @@
+.season-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0 1rem 0;
+}
+
+.season-navigation span {
+  padding-left: 1rem;
+}

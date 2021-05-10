@@ -1,0 +1,16 @@
+.details-box {
+  background-color: aqua;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.details-box h3 {
+  margin-top: 1rem;
+}
+
+.top-navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}

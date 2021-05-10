@@ -1,0 +1,15 @@
+.episode-box {
+  display: grid;
+  text-align: center;
+
+  max-width: 12rem;
+}
+
+.episode-box img {
+  max-width: 12rem;
+}
+
+.episode-box span {
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+}

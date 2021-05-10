@@ -1,0 +1,21 @@
+.information-box {
+  background-color: aqua;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.information-box h2 {
+  padding-bottom: 0.5rem;
+}
+
+.information-box ul,
+span {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 1.5rem;
+}
