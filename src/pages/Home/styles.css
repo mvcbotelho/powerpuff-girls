@@ -16,16 +16,6 @@
   align-content: center;
 }
 
-@media (max-width: 576px) {
-  .container {
-    width: 28rem;
-  }
-
-  .container section {
-    grid-template-columns: 1fr;
-  }
-}
-
 .episode-grid {
   display: grid;
   flex-direction: column;
@@ -50,4 +40,19 @@
   align-items: center;
   justify-content: center;
   padding-top: 5rem;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 28rem;
+  }
+
+  .container section {
+    grid-template-columns: 1fr;
+  }
+
+  .episode-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
 }

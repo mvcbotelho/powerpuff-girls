@@ -13,3 +13,13 @@
   font-size: 0.75rem;
   padding-top: 0.5rem;
 }
+
+@media (max-width: 576px) {
+  .episode-box {
+    max-width: 9.5rem;
+  }
+
+  .episode-box img {
+    max-width: 9.5rem;
+  }
+}

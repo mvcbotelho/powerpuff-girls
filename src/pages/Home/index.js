@@ -52,6 +52,7 @@ function App() {
       <div className='episode-background'>
         <div className='episode-grid'>
           {episodes &&
+            // eslint-disable-next-line
             episodes.map((episode) => {
               if (episode.season === 1 || episode.season === 2) {
                 return (

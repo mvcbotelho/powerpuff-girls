@@ -20,7 +20,7 @@ function Details(props) {
         setEpisodeDetails(json);
         setLoading(false);
       });
-  }, []);
+  }, [props]);
 
   if (loading)
     return (

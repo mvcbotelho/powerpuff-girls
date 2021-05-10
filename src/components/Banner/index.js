@@ -1,6 +1,7 @@
+import './styles.css';
 function Banner({ image }) {
   return (
-    <div>
+    <div className='banner'>
       <img src={image} alt='banner' />
     </div>
   );
